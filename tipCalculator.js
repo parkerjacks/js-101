@@ -10,7 +10,7 @@ function tipCalculator(total,service){
         let tipAmount = total * .15; 
         console.log(tipAmount);
 
-    } if (service ==="Bad") { 
+    }  else if (service ==="Bad") { 
         let tipAmount = total * .10; 
         console.log(tipAmount); }
 
